@@ -11,30 +11,12 @@ NIS: 12200864
 ## About Libro del Publica 
 
 Libro del Publica is a project made by me (Zidane Wiradithya Safaat) for the FInal Competency Test in Wikrama 1 Garut.
-# Steps
-## 1. Clone the project to you PC
+# 1.0 Steps
+### 1.1 Clone the project to you PC
+### 1.2 Run "composer install && NPM install" in your terminal 
+### 1.3 Run "composer dump autoload"
+### 1.4 Type "cp .env.example .env" in your terminal 
+### 1.5 Set up your server etc in .env
+### 1.6 Type "php artisan migrate --seed" to migrate the database and seed them
+### 1.7 run "php artisan ser" and "npm run dev"
 
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
